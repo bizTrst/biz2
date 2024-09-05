@@ -9,7 +9,7 @@ const mongoose= require("mongoose");
   app.use(express.json());
   app.use(express.urlencoded({extended:true}));
 
-  app.get('/home',(req,res)=>{
+  app.get('/',(req,res)=>{
     res.json("Hello World");
   })
  
