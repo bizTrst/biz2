@@ -15,7 +15,7 @@ const mongoose= require("mongoose");
  
   app.post('/data',(req,res)=>{
  const data = req.body.data;
-  console.log(data);
+  res.send(data);
   });
 
 
